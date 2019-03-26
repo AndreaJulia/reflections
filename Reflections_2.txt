@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you need to use it?
+	It makes sense to createa git repository if I want to be able to track cversions or possibly restore older versions.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+	I can only commit one file at a time to ensure that I only commit one logical change at a time.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	It is useful if I want to have two different versions of a game (eg. easy mode and hard mode) and I want to be able to develop them sepeartely without affecting the current (working) version
+
+How do the diagrams help you visualize the branch structure?
+	It helps understand where the features are that are being worked on.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	It combines the changes for both branches in the same log. By representing them in a tree like that you can see which commits belonged to which area.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	The cons are that it may take a long time to finish a merge if you have to resolve changes made by different developers. The pro is that you won't accidentally break a working branch by git randomly making changes.
