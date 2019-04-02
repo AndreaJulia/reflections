@@ -10,3 +10,6 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 	I can work off line and git will know what the state of the last commit was. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	I could use a google sheet that multiple people can edit. Or maybe use something like Unite where multiple people can edit a page and the history is tracked. That would work well for things like recipes. It would be harder to have multiple working branches since everyone is working off the same document. Alternatively, if we used two different documents, the merging of the two would be harder since we would have to figoure out what changed. 
